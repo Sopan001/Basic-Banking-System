@@ -1,0 +1,57 @@
+
+.form-content
+{
+    border: 2px solid #711def;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius:5px;
+}
+
+.form-content .row
+{
+    display: inline-block;
+
+}
+
+.form-content .row h1
+{
+    padding: 20px;
+}
+
+.form-content .row select
+{
+    padding: 15px 85px;  
+    margin:20px; 
+    text-align: center; 
+}
+
+.form-content .row input
+{
+    padding: 15px 58px;  
+    margin:20px;  
+    text-align: center;
+}
+
+.form-content .row button
+{
+    margin-top: 20px;
+}
+
+.right
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 700px) {
+    button.btn {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+}
