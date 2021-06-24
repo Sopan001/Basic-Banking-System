@@ -1,4 +1,3 @@
 # Basic-Banking-System
 
-
-# Internship Project
+## Internship Project
